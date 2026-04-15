@@ -1,10 +1,8 @@
 import os
 from dotenv import load_dotenv
-from service.agent_service import run_agent
 from core.logging import setup_logger
 
 load_dotenv()
-
 
 def main():
     setup_logger()
